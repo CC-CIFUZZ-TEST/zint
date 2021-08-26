@@ -11,10 +11,6 @@ jobs:
       - uses: CC-CIFUZZ-TEST/simple-findings-check-action@main
         with:
           name: 'CI Fuzz Findings'
-          who-to-greet: 'CI team members'
           ci-fuzz-api-token: ${{ secrets.CI_FUZZ_API_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repo: ${{ github.event.repository.owner.login }}/${{ github.event.repository.name }}
-          conclusion: ${{ job.status }}
-          output: |
-            {"summary": "No finding found!!!"}
