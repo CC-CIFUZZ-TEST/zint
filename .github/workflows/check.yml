@@ -8,7 +8,7 @@ jobs:
   create_check:
     runs-on: ubuntu-latest
     steps:
-      - uses: WichanTestCI/simple-findings-check-action@main
+      - uses: CC-CIFUZZ-TEST/simple-findings-check-action@main
         with:
           name: 'CI Fuzz Findings'
           who-to-greet: 'CI team members'
