@@ -4,7 +4,7 @@ Zint is a suite of programs to allow easy encoding of data in any of the
 wide range of public domain barcode standards and to allow integration of
 this capability into your own programs.
 
-Zint is able to encode data in the following formats:
+Zint is able to encode data in the following formats: 
 
 Code 11, Standard Code 2 of 5, IATA Code 2 of 5, Industrial Code 2 of 5,
 Interleaved Code 2 of 5, Code 2 of 5 Data Logic, ITF-14, Deutche Post
