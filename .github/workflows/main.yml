@@ -5,9 +5,9 @@ on:
     branches: [ master ]
 
 env:
-  FUZZING_SERVER_ADDRESS: demo.code-intelligence.com:6773
-  WEB_APP_ADDRESS:  https://demo.code-intelligence.com
-  PROJECT_ID: projects/organizations_82cc3b42e291d178_zint-006bf471
+  FUZZING_SERVER_ADDRESS: external.code-intelligence.com:6773
+  WEB_APP_ADDRESS:  https://external.code-intelligence.com
+  PROJECT_ID: projects/organizations_b30cbf9fc564b330_zint_git-f0f07698
 
 jobs:
   fuzz_tests:
